@@ -20,7 +20,7 @@ function multiply(x, y) {
 }
 
 function divide(x, y) {
-    return x / y;
+  return x / y;
 }
 
 // let answer = subtract(2, 3);
@@ -28,17 +28,25 @@ function divide(x, y) {
 
 // console.log(divide(2, 3)); // no variable called 'answer' to store it in, just console.logging it
 
-// function isEven(number){
-//     if(number % 2 === 0){
-//         return true;
-//     }
-//     else {
-//         return false;
-//     }
-// }
-
 function isEven(number) {
-    return number % 2 === 0 ? true : false //ternary operator
+  if (number % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-console.log(isEven(12))
+function isEven(number) {
+  return number % 2 === 0 ? true : false; //ternary operator
+}
+
+function isValidEmail(email) {
+  if (email.includes("@")) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isValidEmail("rich@yahoo.com"));
+console.log(isValidEmail("richyahoo.com"));
