@@ -48,5 +48,10 @@ function isValidEmail(email) {
   }
 }
 
+function isValidEmail(email) {
+    return email.includes("@") ? true : false;  //ternary operator equivalent
+}
+
 console.log(isValidEmail("rich@yahoo.com"));
 console.log(isValidEmail("richyahoo.com"));
+console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
