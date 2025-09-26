@@ -3,5 +3,9 @@
 //          Call the function to execute that code
 
 function add(x, y){
-    let result
+    let result = x + y;
+    return result;
 }
+
+let answer = add(2, 3);
+console.log(answer)
