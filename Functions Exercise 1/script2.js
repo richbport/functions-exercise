@@ -26,4 +26,15 @@ function divide(x, y) {
 // let answer = subtract(2, 3);
 // console.log(answer)
 
-console.log(divide(2, 3)); // no variable called 'answer' to store it in, just console.logging it
+// console.log(divide(2, 3)); // no variable called 'answer' to store it in, just console.logging it
+
+function isEven(number){
+    if(number % 2 === 0){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+console.log(isEven(10))
