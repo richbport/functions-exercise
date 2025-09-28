@@ -7,12 +7,13 @@
 //     return result;
 // }
 
-// let answer = add(2, 3);
-// console.log(answer);
 
-// function add(x, y) {
-//   return x + y; // works same as above
-// }
+function add(x, y) {
+      return x + y; // works same as above
+    }
+    
+    let answer = add(2, 3);
+    console.log(answer);
 
 // function subtract(x, y) {
 //   return x - y;
@@ -39,12 +40,12 @@ function isEven(number) {
   }
 }
 
-function isEven(number) {
-  return number % 2 === 0 ? true : false; //ternary operator
-}
+// function isEven(number) {
+//   return number % 2 === 0 ? true : false; //ternary operator
+// }
 
-let answer = (isEven(2))
-console.log(answer)
+// let answer = (isEven(2))
+// console.log(answer)
 
 // function isValidEmail(email) {
 //   if (email.includes("@")) {
