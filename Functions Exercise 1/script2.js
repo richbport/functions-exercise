@@ -2,6 +2,14 @@
 //          Declare code once, use it whenever you want
 //          Call the function to execute that code
 
+function add(x, y) {
+    let result = x + y;
+    return result;
+}
+
+let answer = add(2, 3);
+console.log(answer);
+
 // function add(x, y){
 //     let result = x + y;
 //     return result;
@@ -39,12 +47,12 @@
 //   }
 // }
 
-function isEven(number) {
-  return number % 2 === 0 ? true : false; //ternary operator
-}
+// function isEven(number) {
+//   return number % 2 === 0 ? true : false; //ternary operator
+// }
 
-let answer = (isEven(2))
-console.log(answer)
+// let answer = (isEven(2))
+// console.log(answer)
 
 // function isValidEmail(email) {
 //   if (email.includes("@")) {
@@ -54,10 +62,10 @@ console.log(answer)
 //   }
 // }
 
-function isValidEmail(email) {
-    return email.includes("@") ? true : false;  //ternary operator equivalent
-}
+// function isValidEmail(email) {
+//     return email.includes("@") ? true : false;  //ternary operator equivalent
+// }
 
-console.log(isValidEmail("rich@yahoo.com"));
-console.log(isValidEmail("richyahoo.com"));
-console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
+// console.log(isValidEmail("rich@yahoo.com"));
+// console.log(isValidEmail("richyahoo.com"));
+// console.log(isValidEmail("MarkZuckerborg@yahoo.com"));

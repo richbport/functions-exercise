@@ -14,7 +14,7 @@
 // happyBirthday("Donny", 25);
 // happyBirthday("Marie", 35);
 
-function happyBirthday(username, age) {
+function happyBirthday(age, username) {
     console.log("Happy birthday to you!");
     console.log("Happy birthday to you!");
     console.log(`Happy birthday dear ${username}!`);
