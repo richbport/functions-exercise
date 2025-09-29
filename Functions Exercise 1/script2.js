@@ -3,12 +3,22 @@
 //          Call the function to execute that code
 
 function add(x, y) {
-    let result = x + y;
-    return result;
+    return x + y;
 }
 
-let answer = add(2, 3);
-console.log(answer);
+function subtract(x, y){
+    return x - y;
+}
+
+function multiply(x, y){
+    return x * y;
+}
+
+function divide(x, y){
+    return x / y;
+}
+
+console.log(divide(2, 3));
 
 // function add(x, y){
 //     let result = x + y;
