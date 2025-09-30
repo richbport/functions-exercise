@@ -50,17 +50,9 @@
 // }
 
 function isValidEmail(email) {
-    if (email.includes("@")) {
-        return true
-    } else {
-        return false;
-    }
+    return email.includes("@") && email.includes(".");
 }
 
-// function isValidEmail(email) {
-//     return email.includes("@") ? true : false;  //ternary operator equivalent
-// }
-
-console.log(isValidEmail("rich@yahoo.com"));
+console.log(isValidEmail("rich@yahoocom"));
 console.log(isValidEmail("richyahoo.com"));
 console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
