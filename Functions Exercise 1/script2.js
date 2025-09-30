@@ -20,11 +20,11 @@
 
 // console.log(divide(2, 3));
 
-function isEven(number) {
-  return number % 2 === 0 ? true : false;
-}
+// function isEven(number) {
+//   return number % 2 === 0 ? true : false;
+// }
 
-console.log(isEven(11));
+// console.log(isEven(11));
 
 // function isEven(number) {
 //   if (number % 2 === 0) {
@@ -49,10 +49,18 @@ console.log(isEven(11));
 //   }
 // }
 
+function isValidEmail(email) {
+    if (email.includes("@")) {
+        return true
+    } else {
+        return false;
+    }
+}
+
 // function isValidEmail(email) {
 //     return email.includes("@") ? true : false;  //ternary operator equivalent
 // }
 
-// console.log(isValidEmail("rich@yahoo.com"));
-// console.log(isValidEmail("richyahoo.com"));
-// console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
+console.log(isValidEmail("rich@yahoo.com"));
+console.log(isValidEmail("richyahoo.com"));
+console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
