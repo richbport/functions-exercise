@@ -56,3 +56,5 @@ function isValidEmail(email) {
 console.log(isValidEmail("rich@yahoocom"));
 console.log(isValidEmail("richyahoo.com"));
 console.log(isValidEmail("MarkZuckerborg@yahoo.com"));
+
+console.log(Math.random())
