@@ -43,9 +43,9 @@
 
 // function isValidEmail(email) {
 //   if (email.includes("@")) {
-//     return true;
+//     return true; 👌
 //   } else {
-//     return false;
+//     return false; 
 //   }
 // }
 
